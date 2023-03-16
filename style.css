@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.form-container{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+    width: 40%;
+}
+input{
+    width: 60%;
+    height: 2.5rem;
+    padding-left: 1rem;
+}
+button{
+    width: 60%;
+    height: 3rem;
+}
+.error{
+    display: none;
+    color: red;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+.success {
+    display: none;
+    color: blue;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+.is_authenticated{
+    display: none;
+    color: blue;
+}
+.not_authenticated{
+    display: none;
+    color: red;
+}
